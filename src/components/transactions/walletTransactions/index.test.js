@@ -23,7 +23,7 @@ import i18n from '../../../i18n';
 import accounts from '../../../../test/constants/accounts';
 import txFilters from './../../../../src/constants/transactionFilters';
 
-describe.only('WalletTransactions Component', () => {
+describe('WalletTransactions Component', () => {
   let wrapper;
   let props;
   let transactionsActionsStub;
